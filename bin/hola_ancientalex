@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
 
 require 'hola_ancientalex'
-
-puts Hola.hi(ARGV[0])
+puts Hola.hi(ARGV[0].to_sym)
